@@ -1,0 +1,23 @@
+.todoList {
+  width: 100%;
+  background: #2c4150;
+  border: 1px solid #707070;
+  padding: 1rem;
+}
+
+.todoList__title {
+  color: #fff;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.todoList__todos {
+  width: 100%;
+  height: 470px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.todoList__todos::-webkit-scrollbar {
+  display: none;
+}

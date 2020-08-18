@@ -1,0 +1,36 @@
+.todoItem {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #707070;
+  background: #b4b4b4;
+}
+
+.todoItem__text {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.todoItem__toggleBtn {
+  border: 1px solid #707070;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 17px;
+  background: #412b4f;
+  margin-right: 0.5rem;
+  outline: none;
+}
+
+.todoItem__deleteBtn {
+  border: 1px solid #707070;
+  border-radius: 15px;
+  color: #fff;
+  cursor: pointer;
+  padding: 10px 17px;
+  background: #4f2e2b;
+  outline: none;
+}
